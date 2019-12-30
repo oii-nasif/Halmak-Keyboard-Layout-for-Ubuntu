@@ -1277,6 +1277,100 @@ xkb_symbols "workman" {
     include "level3(ralt_switch)"
 };
 
+// begin: NR Keyboard Layout symbols
+
+partial alphanumeric_keys
+xkb_symbols "NRLayout" {
+
+    include "us(basic)"
+    name[Group1]= "English (NR)";
+
+    key <AD01> {  [   k,  K   ] };
+    key <AD02> {  [   y,  Y   ] };
+    key <AD03> {  [   c,  C   ] };
+    key <AD04> {  [   f,  F   ] };
+    key <AD05> {  [   m,  M   ] };
+    key <AD06> {  [   j,  J   ] };
+    key <AD07> {  [   u,  U   ] };
+    key <AD08> {  [   l,  L   ] };
+    key <AD09> {  [   p,  P   ] };
+    key <AD10> {  [   semicolon,  colon   ] };
+
+    key <AC01> {  [   a,  A   ] };
+    key <AC02> {  [   s,  S   ] };
+    key <AC03> {  [   e,  E   ] };
+    key <AC04> {  [   o,  O   ] };
+    key <AC05> {  [   d,  D   ] };
+    key <AC06> {  [   h,  H   ] };
+    key <AC07> {  [   n,  N   ] };
+    key <AC08> {  [   t,  T   ] };
+    key <AC09> {  [   r,  R   ] };
+    key <AC10> {  [   i,  I   ] };
+
+    key <AB01> {  [   q,  Q   ] };
+    key <AB02> {  [   z,  Z   ] };
+    key <AB03> {  [   b,  B   ] };
+    key <AB04> {  [   w,  W   ] };
+    key <AB05> {  [   x,  X   ] };
+    key <AB06> {  [   g,  G   ] };
+    key <AB07> {  [   v,  V   ] };
+
+    key <CAPS> { [    BackSpace,       Escape,       BackSpace,        BackSpace ] };
+
+    include "level3(ralt_switch)"
+};
+
+// end: NR Keyboard Layout symbols
+
+
+//begin Halmak
+partial alphanumeric_keys
+xkb_symbols "halmak" {
+
+    include "us(basic)"
+    name[Group1]= "English (Halmak)";
+
+    key <AD01> {  [   w,  W   ] };
+    key <AD02> {  [   l,  L   ] };
+    key <AD03> {  [   r,  R   ] };
+    key <AD04> {  [   b,  B   ] };
+    key <AD05> {  [   z,  Z   ] };
+    key <AD06> {  [   semicolon,  colon   ] };
+    key <AD07> {  [   q,  Q   ] };
+    key <AD08> {  [   u,  U   ] };
+    key <AD09> {  [   d,  D   ] };
+    key <AD10> {  [   j,  J   ] };
+
+    key <AC01> {  [   s,  S   ] };
+    key <AC02> {  [   h,  H   ] };
+    key <AC03> {  [   n,  N   ] };
+    key <AC04> {  [   t,  T   ] };
+    key <AC05> {  [   comma,  less   ] };
+    key <AC06> {  [   period,  greater   ] };
+    key <AC07> {  [   a,  A   ] };
+    key <AC08> {  [   e,  E   ] };
+    key <AC09> {  [   o,  O   ] };
+    key <AC10> {  [   i,  I   ] };
+
+    key <AB01> {  [   f,  F   ] };
+    key <AB02> {  [   m,  M   ] };
+    key <AB03> {  [   v,  V   ] };
+    key <AB04> {  [   c,  C   ] };
+    key <AB05> {  [   slash,  question   ] };
+    key <AB06> {  [   g,  G   ] };
+    key <AB07> {  [   p,  P   ] };
+	key <AB08> {  [   x,  X   ] };
+	key <AB09> {  [   k,  K   ] };
+	key <AB10> {  [   y,  Y   ] };
+
+    key <CAPS> { [    BackSpace,       Escape,       BackSpace,        BackSpace ] };
+
+    include "level3(ralt_switch)"
+};
+
+// end Halmak
+
+
 partial alphanumeric_keys
 xkb_symbols "workman-intl" {
 
