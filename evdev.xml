@@ -1448,6 +1448,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>halmak</name>
+            <description>English (Halmak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>workman</name>
             <description>English (Workman)</description>
           </configItem>
